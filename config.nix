@@ -19,6 +19,12 @@
   # Set your time zone.
   time.timeZone = "Europe/Copenhagen";
 
+  # Shell aliases
+  environment.shellAliases = {
+    "xcopy" = "xclip -selection c"; # pipe to xcopy to send to X clipboard
+    "xpaste" = "xclip -selection clipboard -o"; # outputs from X clipboard eg. xpaste > text.txt
+  };
+
   # Fonts
   fonts = {
     enableFontDir = true;

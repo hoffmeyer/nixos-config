@@ -35,6 +35,7 @@
     wget
     zip
     zlib # needed for p4merge as shared lib
+    xclip
   ];
   
 }
